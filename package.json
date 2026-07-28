@@ -1,0 +1,38 @@
+{
+  "name": "acbrapi-sdk",
+  "version": "3.1.7",
+  "description": "Biblioteca TypeScript para uso da ACBr API",
+  "author": "ACBr API",
+  "homepage": "https://www.acbr.api.br",
+  "license": "Apache-2.0",
+  "keywords": [
+    "acbr",
+    "acbrapi",
+    "nfe",
+    "nfse",
+    "cnpj",
+    "sefaz",
+    "nota-fiscal",
+    "sdk",
+    "rest",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projeto-acbr-oficial/acbrapi-sdk-node.git"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "module": "./dist/esm/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
