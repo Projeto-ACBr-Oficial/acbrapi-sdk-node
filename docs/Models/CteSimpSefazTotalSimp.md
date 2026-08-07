@@ -1,0 +1,12 @@
+# CteSimpSefazTotalSimp
+
+## Propriedades
+
+| Nome | Tipo | Descrição | Comentários |
+|------------ | ------------- | ------------- | -------------|
+| **vTPrest** | **number** | Valor Total da Prestação do Serviço.  Pode conter zeros quando o CT-e for de complemento de ICMS. |  |
+| **vTRec** | **number** | Valor total a Receber. |  |
+| **vTotDFe** | **number** | Valor total do documento fiscal  (vTPrest + total do IBS + total da CBS). | [opcional]  |
+
+[[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
+

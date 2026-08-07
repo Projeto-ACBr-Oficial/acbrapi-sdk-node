@@ -1161,7 +1161,7 @@ export class NfeApi extends runtime.BaseAPI {
     }
 
     /**
-     * É possível enviar até 20 correções diferentes, sendo que será válido sempre a última correção enviada.    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
+     * é possível enviar até 20 correções diferentes, sendo que será válido sempre a última correção enviada.    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
      * Solicitar correção da NF-e
      */
     async criarCartaCorrecaoNfeRaw(requestParameters: CriarCartaCorrecaoNfeRequest, initOverrides?: RequestInit | runtime.InitOverrideFunction): Promise<runtime.ApiResponse<DfeCartaCorrecao>> {
@@ -1196,7 +1196,7 @@ export class NfeApi extends runtime.BaseAPI {
     }
 
     /**
-     * É possível enviar até 20 correções diferentes, sendo que será válido sempre a última correção enviada.    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
+     * é possível enviar até 20 correções diferentes, sendo que será válido sempre a última correção enviada.    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
      * Solicitar correção da NF-e
      */
     async criarCartaCorrecaoNfe(requestParameters: CriarCartaCorrecaoNfeRequest, initOverrides?: RequestInit | runtime.InitOverrideFunction): Promise<DfeCartaCorrecao> {

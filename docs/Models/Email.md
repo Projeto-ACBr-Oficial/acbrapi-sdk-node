@@ -1,0 +1,18 @@
+# Email
+
+## Propriedades
+
+| Nome | Tipo | Descrição | Comentários |
+|------------ | ------------- | ------------- | -------------|
+| **id** | **string** | ID único gerado pela API para este email.    Utilize-o no endpoint de &lt;a href&#x3D;\&quot;#tag/Email/operation/ConsultarEmail\&quot;&gt;consulta de email&lt;/a&gt;  para obter informações detalhadas sobre o envio do email e  rastrear todos os eventos relacionados, como envio, entrega, falhas e outros  eventos relevantes. |  |
+| **status** | **string** |  | [opcional]  |
+| **sent\_at** | **Date** |  | [opcional]  |
+| **to** | **Array** |  | [opcional]  |
+| **cc** | **Array** |  | [opcional]  |
+| **reply\_to** | **string** |  | [opcional]  |
+| **subject** | **string** |  | [opcional]  |
+| **attachments** | [**Array**](EmailAttachment.md) |  | [opcional]  |
+| **events** | [**Array**](EmailEvent.md) |  | [opcional]  |
+
+[[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
+

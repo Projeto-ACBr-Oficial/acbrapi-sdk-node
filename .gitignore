@@ -2,8 +2,3 @@ wwwroot/*.js
 node_modules
 typings
 dist
-# Specific files
-.openapi-generator
-.DS_Store
-.openapi-generator-ignore
-.idea

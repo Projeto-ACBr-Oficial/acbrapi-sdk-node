@@ -1,0 +1,13 @@
+# NfseLoteDpsPedidoEmissao
+
+## Propriedades
+
+| Nome | Tipo | Descrição | Comentários |
+|------------ | ------------- | ------------- | -------------|
+| **provedor** | **string** | Default: &#x60;\&quot;padrao\&quot;&#x60;    Identificação do provedor para transmissão da DPS:   * &#x60;\&quot;padrao\&quot;&#x60;: Provedor padrão da prefeitura.   * &#x60;\&quot;nacional\&quot;&#x60;: Ambiente de Dados Nacional (ADN) do &lt;a href&#x3D;\&quot;https://www.gov.br/nfse/pt-br\&quot; target&#x3D;\&quot;blank\&quot;&gt;Sistema Nacional NFS-e&lt;/a&gt;. | [opcional]  |
+| **ambiente** | **string** | Identificação do Ambiente. |  |
+| **referencia** | **string** | Seu identificador único para este documento. Opcional, ajuda a evitar o envio duplicado de um mesmo documento. | [opcional]  |
+| **documentos** | [**Array**](NfseDpsPedidoEmissao.md) | Lista com as informações das DPS relativas aos serviços prestados. | [opcional]  |
+
+[[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
+

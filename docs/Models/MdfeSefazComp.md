@@ -1,0 +1,12 @@
+# MdfeSefazComp
+
+## Propriedades
+
+| Nome | Tipo | Descrição | Comentários |
+|------------ | ------------- | ------------- | -------------|
+| **tpComp** | **string** | Tipo do Componente.  Preencher com:  * 01 - Vale Pedágio  * 02 - Impostos, taxas e contribuições  * 03 - Despesas (bancárias, meios de pagamento, outras)  * 04 - Frete  * 99 - Outros |  |
+| **vComp** | **number** | Valor do componente. |  |
+| **xComp** | **string** | Descrição do componente do tipo Outros. | [opcional]  |
+
+[[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
+

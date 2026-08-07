@@ -3,6 +3,8 @@
 Biblioteca para uso da [ACBr API](https://www.acbr.api.br) com [Node.js](https://nodejs.org).
 Consultar também a [documentação oficial da ACBr API](https://dev.acbr.api.br/docs).
 
+A referência dos endpoints e DTOs deste SDK está em [docs/](docs/README.md).
+
 ## Instalação
 
 Instale direto do GitHub. Rode o comando na pasta do seu projeto

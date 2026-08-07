@@ -1,0 +1,17 @@
+# NfcomSefazICMS90
+
+## Propriedades
+
+| Nome | Tipo | Descrição | Comentários |
+|------------ | ------------- | ------------- | -------------|
+| **CST** | **string** | Classificação Tributária do Serviço.  * 90 - ICMS outros |  |
+| **vBC** | **number** | Valor da BC do ICMS. | [opcional]  |
+| **pICMS** | **number** | Alíquota do ICMS. | [opcional]  |
+| **vICMS** | **number** | Valor do ICMS. | [opcional]  |
+| **vICMSDeson** | **number** | Valor do ICMS de desoneração. | [opcional]  |
+| **cBenef** | **string** | Código de Benefício Fiscal na UF aplicado ao item.  Código de Benefício Fiscal utilizado pela UF, aplicado ao  item. | [opcional]  |
+| **pFCP** | **number** | Percentual de ICMS relativo ao Fundo de Combate à Pobreza (FCP). | [opcional]  |
+| **vFCP** | **number** | Valor do ICMS relativo ao Fundo de Combate à Pobreza (FCP). | [opcional]  |
+
+[[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
+
