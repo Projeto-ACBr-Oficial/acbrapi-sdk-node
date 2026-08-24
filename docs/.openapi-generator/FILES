@@ -546,13 +546,14 @@ Models/NfePedidoCancelamento.md
 Models/NfePedidoCartaCorrecao.md
 Models/NfePedidoEmissao.md
 Models/NfePedidoEmissaoLote.md
+Models/NfeSefazALCZFMCBSNFe.md
 Models/NfeSefazAdi.md
 Models/NfeSefazAgropecuario.md
 Models/NfeSefazAjusteCompet.md
 Models/NfeSefazArma.md
 Models/NfeSefazAutXML.md
 Models/NfeSefazAvulsa.md
-Models/NfeSefazCIBS.md
+Models/NfeSefazCIBSNFe.md
 Models/NfeSefazCIDE.md
 Models/NfeSefazCOFINS.md
 Models/NfeSefazCOFINSAliq.md

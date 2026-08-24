@@ -552,13 +552,14 @@ src/models/NfePedidoCancelamento.ts
 src/models/NfePedidoCartaCorrecao.ts
 src/models/NfePedidoEmissao.ts
 src/models/NfePedidoEmissaoLote.ts
+src/models/NfeSefazALCZFMCBSNFe.ts
 src/models/NfeSefazAdi.ts
 src/models/NfeSefazAgropecuario.ts
 src/models/NfeSefazAjusteCompet.ts
 src/models/NfeSefazArma.ts
 src/models/NfeSefazAutXML.ts
 src/models/NfeSefazAvulsa.ts
-src/models/NfeSefazCIBS.ts
+src/models/NfeSefazCIBSNFe.ts
 src/models/NfeSefazCIDE.ts
 src/models/NfeSefazCOFINS.ts
 src/models/NfeSefazCOFINSAliq.ts

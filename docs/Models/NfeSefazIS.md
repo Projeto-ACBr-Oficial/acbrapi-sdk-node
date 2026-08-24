@@ -8,7 +8,7 @@
 | **cClassTribIS** | **string** |  | [opcional]  |
 | **vBCIS** | **number** | Valor do BC. | [opcional]  |
 | **pIS** | **number** | Alíquota do Imposto Seletivo (percentual). | [opcional]  |
-| **pISEspec** | **number** | Alíquota do Imposto Seletivo (por valor). | [opcional]  |
+| **adRemIS** | **number** | Alíquota do Imposto Seletivo (por valor). | [opcional]  |
 | **uTrib** | **string** | Unidade de medida apropriada especificada em Lei Ordinaria para fins de apuração do Imposto Seletivo. | [opcional]  |
 | **qTrib** | **number** | Quantidade com abse no campo uTrib informado. | [opcional]  |
 | **vIS** | **number** | Valor do Imposto Seletivo calculado. | [opcional]  |
