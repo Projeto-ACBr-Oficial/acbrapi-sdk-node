@@ -14,9 +14,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
 | [**consultarLoteNfse**](NfseApi.md#consultarLoteNfse) | **GET** /nfse/lotes/{id} | Consultar lote de NFS-e |
 | [**consultarMetadados**](NfseApi.md#consultarMetadados) | **GET** /nfse/cidades/{codigo_ibge} | Consultar metadados |
 | [**consultarNfse**](NfseApi.md#consultarNfse) | **GET** /nfse/{id} | Consultar NFS-e |
-| [**emitirLoteNfse**](NfseApi.md#emitirLoteNfse) | **POST** /nfse/lotes | Emitir lote de NFS-e |
 | [**emitirLoteNfseDps**](NfseApi.md#emitirLoteNfseDps) | **POST** /nfse/dps/lotes | Emitir lote de NFS-e |
-| [**emitirNfse**](NfseApi.md#emitirNfse) | **POST** /nfse | Emitir NFS-e |
 | [**emitirNfseDps**](NfseApi.md#emitirNfseDps) | **POST** /nfse/dps | Emitir NFS-e |
 | [**listarLotesNfse**](NfseApi.md#listarLotesNfse) | **GET** /nfse/lotes | Listar lotes de NFS-e |
 | [**listarNfse**](NfseApi.md#listarNfse) | **GET** /nfse | Listar NFS-e |
@@ -309,35 +307,6 @@ Consultar NFS-e
 
 [[Voltar ao topo]](#) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar ao README]](../README.md)
 
-<a name="emitirLoteNfse"></a>
-# **emitirLoteNfse**
-> RpsLote emitirLoteNfse(body)
-
-Emitir lote de NFS-e
-
-    **Informações adicionais**:  - Consumo: 1 unidade por NFS-e.
-
-### Parâmetros
-
-|Nome | Tipo | Descrição  | Comentários |
-|------------- | ------------- | ------------- | -------------|
-| **body** | [**RpsPedidoEmissaoLote**](../Models/RpsPedidoEmissaoLote.md)|  | |
-
-### Tipo do retorno
-
-[**RpsLote**](../Models/RpsLote.md)
-
-### Autorização
-
-[oauth2](../README.md#oauth2)
-
-### Headers HTTP da requisição
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-[[Voltar ao topo]](#) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar ao README]](../README.md)
-
 <a name="emitirLoteNfseDps"></a>
 # **emitirLoteNfseDps**
 > RpsLote emitirLoteNfseDps(body)
@@ -355,35 +324,6 @@ Emitir lote de NFS-e
 ### Tipo do retorno
 
 [**RpsLote**](../Models/RpsLote.md)
-
-### Autorização
-
-[oauth2](../README.md#oauth2)
-
-### Headers HTTP da requisição
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-[[Voltar ao topo]](#) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar ao README]](../README.md)
-
-<a name="emitirNfse"></a>
-# **emitirNfse**
-> Nfse emitirNfse(body)
-
-Emitir NFS-e
-
-    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
-
-### Parâmetros
-
-|Nome | Tipo | Descrição  | Comentários |
-|------------- | ------------- | ------------- | -------------|
-| **body** | [**NfsePedidoEmissao**](../Models/NfsePedidoEmissao.md)|  | |
-
-### Tipo do retorno
-
-[**Nfse**](../Models/Nfse.md)
 
 ### Autorização
 

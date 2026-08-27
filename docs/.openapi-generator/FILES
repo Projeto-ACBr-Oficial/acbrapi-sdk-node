@@ -700,7 +700,6 @@ Models/NfseListagem.md
 Models/NfseLoteDpsPedidoEmissao.md
 Models/NfseMensagemRetorno.md
 Models/NfsePedidoCancelamento.md
-Models/NfsePedidoEmissao.md
 Models/NfsePedidoSincronizacao.md
 Models/NfseSincronizacao.md
 Models/RTCInfoDest.md
@@ -727,11 +726,8 @@ Models/RpsDadosServico.md
 Models/RpsDadosTomador.md
 Models/RpsDadosTomadorEndereco.md
 Models/RpsIdentificacao.md
-Models/RpsIdentificacaoPrestador.md
 Models/RpsLote.md
 Models/RpsLoteListagem.md
-Models/RpsPedidoEmissao.md
-Models/RpsPedidoEmissaoLote.md
 Models/RpsServicoValores.md
 Models/Serv.md
 Models/Substituicao.md

@@ -706,7 +706,6 @@ src/models/NfseListagem.ts
 src/models/NfseLoteDpsPedidoEmissao.ts
 src/models/NfseMensagemRetorno.ts
 src/models/NfsePedidoCancelamento.ts
-src/models/NfsePedidoEmissao.ts
 src/models/NfsePedidoSincronizacao.ts
 src/models/NfseSincronizacao.ts
 src/models/RTCInfoDest.ts
@@ -733,11 +732,8 @@ src/models/RpsDadosServico.ts
 src/models/RpsDadosTomador.ts
 src/models/RpsDadosTomadorEndereco.ts
 src/models/RpsIdentificacao.ts
-src/models/RpsIdentificacaoPrestador.ts
 src/models/RpsLote.ts
 src/models/RpsLoteListagem.ts
-src/models/RpsPedidoEmissao.ts
-src/models/RpsPedidoEmissaoLote.ts
 src/models/RpsServicoValores.ts
 src/models/Serv.ts
 src/models/Substituicao.ts

@@ -225,9 +225,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
 *NfseApi* | [**consultarLoteNfse**](Apis/NfseApi.md#consultarlotenfse) | **GET** /nfse/lotes/{id} | Consultar lote de NFS-e |
 *NfseApi* | [**consultarMetadados**](Apis/NfseApi.md#consultarmetadados) | **GET** /nfse/cidades/{codigo_ibge} | Consultar metadados |
 *NfseApi* | [**consultarNfse**](Apis/NfseApi.md#consultarnfse) | **GET** /nfse/{id} | Consultar NFS-e |
-*NfseApi* | [**emitirLoteNfse**](Apis/NfseApi.md#emitirlotenfse) | **POST** /nfse/lotes | Emitir lote de NFS-e |
 *NfseApi* | [**emitirLoteNfseDps**](Apis/NfseApi.md#emitirlotenfsedps) | **POST** /nfse/dps/lotes | Emitir lote de NFS-e |
-*NfseApi* | [**emitirNfse**](Apis/NfseApi.md#emitirnfse) | **POST** /nfse | Emitir NFS-e |
 *NfseApi* | [**emitirNfseDps**](Apis/NfseApi.md#emitirnfsedps) | **POST** /nfse/dps | Emitir NFS-e |
 *NfseApi* | [**listarLotesNfse**](Apis/NfseApi.md#listarlotesnfse) | **GET** /nfse/lotes | Listar lotes de NFS-e |
 *NfseApi* | [**listarNfse**](Apis/NfseApi.md#listarnfse) | **GET** /nfse | Listar NFS-e |
@@ -924,7 +922,6 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
  - [NfseLoteDpsPedidoEmissao](./Models/NfseLoteDpsPedidoEmissao.md)
  - [NfseMensagemRetorno](./Models/NfseMensagemRetorno.md)
  - [NfsePedidoCancelamento](./Models/NfsePedidoCancelamento.md)
- - [NfsePedidoEmissao](./Models/NfsePedidoEmissao.md)
  - [NfsePedidoSincronizacao](./Models/NfsePedidoSincronizacao.md)
  - [NfseSincronizacao](./Models/NfseSincronizacao.md)
  - [RTCInfoDest](./Models/RTCInfoDest.md)
@@ -951,11 +948,8 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
  - [RpsDadosTomador](./Models/RpsDadosTomador.md)
  - [RpsDadosTomadorEndereco](./Models/RpsDadosTomadorEndereco.md)
  - [RpsIdentificacao](./Models/RpsIdentificacao.md)
- - [RpsIdentificacaoPrestador](./Models/RpsIdentificacaoPrestador.md)
  - [RpsLote](./Models/RpsLote.md)
  - [RpsLoteListagem](./Models/RpsLoteListagem.md)
- - [RpsPedidoEmissao](./Models/RpsPedidoEmissao.md)
- - [RpsPedidoEmissaoLote](./Models/RpsPedidoEmissaoLote.md)
  - [RpsServicoValores](./Models/RpsServicoValores.md)
  - [Serv](./Models/Serv.md)
  - [Substituicao](./Models/Substituicao.md)
