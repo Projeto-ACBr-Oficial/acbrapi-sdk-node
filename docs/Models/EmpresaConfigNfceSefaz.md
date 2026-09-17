@@ -4,8 +4,8 @@
 
 | Nome | Tipo | Descrição | Comentários |
 |------------ | ------------- | ------------- | -------------|
-| **id\_csc** | **number** | Número de identificação do CSC. |  |
-| **csc** | **string** | Código do CSC. |  |
+| **id\_csc** | **number** | Número de identificação do CSC. | [opcional]  |
+| **csc** | **string** | Código do CSC. | [opcional]  |
 
 [[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar ao README]](../README.md)
 
