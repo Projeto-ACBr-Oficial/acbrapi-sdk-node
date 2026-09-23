@@ -433,7 +433,7 @@ Cancelar uma NFC-e autorizada
 |Nome | Tipo | Descrição  | Comentários |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **string**| ID único da NFC-e gerado pela API. | |
-| **body** | [**NfePedidoCancelamento**](../Models/NfePedidoCancelamento.md)|  | [opcional] |
+| **body** | [**NfcePedidoCancelamento**](../Models/NfcePedidoCancelamento.md)|  | [opcional] |
 
 ### Tipo do retorno
 

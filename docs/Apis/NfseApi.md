@@ -16,6 +16,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
 | [**consultarNfse**](NfseApi.md#consultarNfse) | **GET** /nfse/{id} | Consultar NFS-e |
 | [**emitirLoteNfseDps**](NfseApi.md#emitirLoteNfseDps) | **POST** /nfse/dps/lotes | Emitir lote de NFS-e |
 | [**emitirNfseDps**](NfseApi.md#emitirNfseDps) | **POST** /nfse/dps | Emitir NFS-e |
+| [**enviarEmailNfse**](NfseApi.md#enviarEmailNfse) | **POST** /nfse/{id}/email | Enviar e-mail |
 | [**listarLotesNfse**](NfseApi.md#listarLotesNfse) | **GET** /nfse/lotes | Listar lotes de NFS-e |
 | [**listarNfse**](NfseApi.md#listarNfse) | **GET** /nfse | Listar NFS-e |
 | [**sincronizarNfse**](NfseApi.md#sincronizarNfse) | **POST** /nfse/{id}/sincronizar | Sincroniza dados na NFS-e a partir da Prefeitura |
@@ -353,6 +354,38 @@ Emitir NFS-e
 ### Tipo do retorno
 
 [**Nfse**](../Models/Nfse.md)
+
+### Autorização
+
+[oauth2](../README.md#oauth2)
+
+### Headers HTTP da requisição
+
+- **Content-Type**: application/json
+- **Accept**: application/json
+
+[[Voltar ao topo]](#) [[Voltar à listagem da API]](../README.md#documentation-for-api-endpoints) [[Voltar à lista de DTOs]](../README.md#documentation-for-models) [[Voltar ao README]](../README.md)
+
+<a name="enviarEmailNfse"></a>
+# **enviarEmailNfse**
+> EmailStatusResponse enviarEmailNfse(id, logotipo, mensagemRodape, body)
+
+Enviar e-mail
+
+    Envia o XML e PDF da nota via email.    **Informações adicionais**:  - Consumo: 1 unidade por requisição.
+
+### Parâmetros
+
+|Nome | Tipo | Descrição  | Comentários |
+|------------- | ------------- | ------------- | -------------|
+| **id** | **string**| ID único da NFS-e gerado pela API. | |
+| **logotipo** | **boolean**| Imprime o documento com logotipo, desde que esteja cadastrado na empresa. | [opcional] |
+| **mensagemRodape** | **string**| Imprime mensagem no rodapé do documento.    O caractere &#x60;|&#x60; (pipe) poderá ser utilizado para definir a quantidade e o alinhamento das mensagens.    **Exemplos de Uso:**  * &#x60;\&quot;esquerda\&quot;&#x60;  * &#x60;\&quot;esquerda|centro\&quot;&#x60;  * &#x60;\&quot;esquerda|centro|direita\&quot;&#x60;  * &#x60;\&quot;|centro\&quot;&#x60;, &#x60;\&quot;|centro|\&quot;&#x60;  * &#x60;\&quot;|centro|direita\&quot;&#x60;  * &#x60;\&quot;||direita\&quot;&#x60;  * &#x60;\&quot;esquerda||direita\&quot;&#x60;    Default: &#x60;\&quot;\&quot;&#x60; | [opcional] |
+| **body** | [**DfePedidoEnvioEmail**](../Models/DfePedidoEnvioEmail.md)|  | [opcional] |
+
+### Tipo do retorno
+
+[**EmailStatusResponse**](../Models/EmailStatusResponse.md)
 
 ### Autorização
 

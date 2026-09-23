@@ -227,6 +227,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
 *NfseApi* | [**consultarNfse**](Apis/NfseApi.md#consultarnfse) | **GET** /nfse/{id} | Consultar NFS-e |
 *NfseApi* | [**emitirLoteNfseDps**](Apis/NfseApi.md#emitirlotenfsedps) | **POST** /nfse/dps/lotes | Emitir lote de NFS-e |
 *NfseApi* | [**emitirNfseDps**](Apis/NfseApi.md#emitirnfsedps) | **POST** /nfse/dps | Emitir NFS-e |
+*NfseApi* | [**enviarEmailNfse**](Apis/NfseApi.md#enviaremailnfse) | **POST** /nfse/{id}/email | Enviar e-mail |
 *NfseApi* | [**listarLotesNfse**](Apis/NfseApi.md#listarlotesnfse) | **GET** /nfse/lotes | Listar lotes de NFS-e |
 *NfseApi* | [**listarNfse**](Apis/NfseApi.md#listarnfse) | **GET** /nfse | Listar NFS-e |
 *NfseApi* | [**sincronizarNfse**](Apis/NfseApi.md#sincronizarnfse) | **POST** /nfse/{id}/sincronizar | Sincroniza dados na NFS-e a partir da Prefeitura |
@@ -701,6 +702,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
  - [MdfeSefazVeicReboque](./Models/MdfeSefazVeicReboque.md)
  - [MdfeSefazVeicReboque_Prop](./Models/MdfeSefazVeicReboque_Prop.md)
  - [MdfeSefazVeicTracao](./Models/MdfeSefazVeicTracao.md)
+ - [NfcePedidoCancelamento](./Models/NfcePedidoCancelamento.md)
  - [NfcomPedidoCancelamento](./Models/NfcomPedidoCancelamento.md)
  - [NfcomPedidoEmissao](./Models/NfcomPedidoEmissao.md)
  - [NfcomSefazALCZFMCBS](./Models/NfcomSefazALCZFMCBS.md)

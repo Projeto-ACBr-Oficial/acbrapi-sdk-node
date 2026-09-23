@@ -485,6 +485,7 @@ src/models/MdfeSefazValePed.ts
 src/models/MdfeSefazVeicReboque.ts
 src/models/MdfeSefazVeicReboqueProp.ts
 src/models/MdfeSefazVeicTracao.ts
+src/models/NfcePedidoCancelamento.ts
 src/models/NfcomPedidoCancelamento.ts
 src/models/NfcomPedidoEmissao.ts
 src/models/NfcomSefazALCZFMCBS.ts

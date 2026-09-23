@@ -466,6 +466,7 @@ export * from './MdfeSefazValePed';
 export * from './MdfeSefazVeicReboque';
 export * from './MdfeSefazVeicReboqueProp';
 export * from './MdfeSefazVeicTracao';
+export * from './NfcePedidoCancelamento';
 export * from './NfcomPedidoCancelamento';
 export * from './NfcomPedidoEmissao';
 export * from './NfcomSefazALCZFMCBS';
