@@ -707,6 +707,10 @@ Models/RTCInfoDest.md
 Models/RTCInfoIBSCBS.md
 Models/RTCInfoImovel.md
 Models/RTCInfoReeRepRes.md
+Models/RTCInfoTributosAbrasf.md
+Models/RTCInfoTributosAbrasfFed.md
+Models/RTCInfoTributosAbrasfMun.md
+Models/RTCInfoTributosAbrasfUF.md
 Models/RTCInfoTributosDif.md
 Models/RTCInfoTributosIBSCBS.md
 Models/RTCInfoTributosSitClas.md

@@ -713,6 +713,10 @@ src/models/RTCInfoDest.ts
 src/models/RTCInfoIBSCBS.ts
 src/models/RTCInfoImovel.ts
 src/models/RTCInfoReeRepRes.ts
+src/models/RTCInfoTributosAbrasf.ts
+src/models/RTCInfoTributosAbrasfFed.ts
+src/models/RTCInfoTributosAbrasfMun.ts
+src/models/RTCInfoTributosAbrasfUF.ts
 src/models/RTCInfoTributosDif.ts
 src/models/RTCInfoTributosIBSCBS.ts
 src/models/RTCInfoTributosSitClas.ts
