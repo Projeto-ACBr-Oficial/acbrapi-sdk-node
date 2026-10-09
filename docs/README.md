@@ -216,7 +216,7 @@ Todas as URIs relativas a *https://prod.acbr.api.br*
 *NfeApi* | [**listarNfe**](Apis/NfeApi.md#listarnfe) | **GET** /nfe | Listar NF-e |
 *NfeApi* | [**sincronizarNfe**](Apis/NfeApi.md#sincronizarnfe) | **POST** /nfe/{id}/sincronizar | Sincroniza dados na NF-e a partir da SEFAZ |
 | *NfseApi* | [**baixarPdfNfse**](Apis/NfseApi.md#baixarpdfnfse) | **GET** /nfse/{id}/pdf | Baixar PDF do DANFSE |
-*NfseApi* | [**baixarXmlCancelamentoNfse**](Apis/NfseApi.md#baixarxmlcancelamentonfse) | **GET** /nfse/{Id}/cancelamento/xml | Baixar XML do evento de cancelamento |
+*NfseApi* | [**baixarXmlCancelamentoNfse**](Apis/NfseApi.md#baixarxmlcancelamentonfse) | **GET** /nfse/{id}/cancelamento/xml | Baixar XML do evento de cancelamento |
 *NfseApi* | [**baixarXmlDps**](Apis/NfseApi.md#baixarxmldps) | **GET** /nfse/{id}/xml/dps | Baixar XML da DPS |
 *NfseApi* | [**baixarXmlNfse**](Apis/NfseApi.md#baixarxmlnfse) | **GET** /nfse/{id}/xml | Baixar XML da NFS-e processada |
 *NfseApi* | [**cancelarNfse**](Apis/NfseApi.md#cancelarnfse) | **POST** /nfse/{id}/cancelamento | Cancelar uma NFS-e autorizada |

@@ -87,7 +87,7 @@ Este endpoint não usa parâmetros.
 
 <a name="listarExtratoCreditosConta"></a>
 # **listarExtratoCreditosConta**
-> ContaExtratoCreditoListagem listarExtratoCreditosConta(dataInicial, dataFinal, top, skip, limit)
+> ContaExtratoCreditoListagem listarExtratoCreditosConta(dataInicial, dataFinal, top, skip, limit, clientId, incluirIsentos)
 
 Consultar o extrato de movimentação de créditos do tenant atual.
 
@@ -100,6 +100,8 @@ Consultar o extrato de movimentação de créditos do tenant atual.
 | **top** | **number**|  | [opcional] |
 | **skip** | **number**|  | [opcional] |
 | **limit** | **number**|  | [opcional] |
+| **clientId** | **string**|  | [opcional] |
+| **incluirIsentos** | **boolean**|  | [opcional] |
 
 ### Tipo do retorno
 

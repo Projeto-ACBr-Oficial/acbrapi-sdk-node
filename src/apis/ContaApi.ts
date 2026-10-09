@@ -41,6 +41,8 @@ export interface ListarExtratoCreditosContaRequest {
     top?: number;
     skip?: number;
     limit?: number;
+    clientId?: string;
+    incluirIsentos?: boolean;
 }
 
 /**
@@ -169,6 +171,14 @@ export class ContaApi extends runtime.BaseAPI {
 
         if (requestParameters.limit !== undefined) {
             queryParameters['limit'] = requestParameters.limit;
+        }
+
+        if (requestParameters.clientId !== undefined) {
+            queryParameters['client_id'] = requestParameters.clientId;
+        }
+
+        if (requestParameters.incluirIsentos !== undefined) {
+            queryParameters['incluir_isentos'] = requestParameters.incluirIsentos;
         }
 
         const headerParameters: runtime.HTTPHeaders = {};

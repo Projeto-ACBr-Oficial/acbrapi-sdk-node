@@ -73,6 +73,36 @@ export interface ContaExtratoCredito {
      * @memberof ContaExtratoCredito
      */
     uri?: string;
+    /**
+     * 
+     * @type {string}
+     * @memberof ContaExtratoCredito
+     */
+    client_id?: string;
+    /**
+     * 
+     * @type {string}
+     * @memberof ContaExtratoCredito
+     */
+    origin?: string;
+    /**
+     * 
+     * @type {string}
+     * @memberof ContaExtratoCredito
+     */
+    resource_type?: string;
+    /**
+     * 
+     * @type {string}
+     * @memberof ContaExtratoCredito
+     */
+    resource_id?: string;
+    /**
+     * 
+     * @type {string}
+     * @memberof ContaExtratoCredito
+     */
+    request_id?: string;
 }
 
 /**
@@ -103,6 +133,11 @@ export function ContaExtratoCreditoFromJSONTyped(json: any, ignoreDiscriminator:
         'arquivo_id': !exists(json, 'arquivo_id') ? undefined : json['arquivo_id'],
         'http_method': !exists(json, 'http_method') ? undefined : json['http_method'],
         'uri': !exists(json, 'uri') ? undefined : json['uri'],
+        'client_id': !exists(json, 'client_id') ? undefined : json['client_id'],
+        'origin': !exists(json, 'origin') ? undefined : json['origin'],
+        'resource_type': !exists(json, 'resource_type') ? undefined : json['resource_type'],
+        'resource_id': !exists(json, 'resource_id') ? undefined : json['resource_id'],
+        'request_id': !exists(json, 'request_id') ? undefined : json['request_id'],
     };
 }
 
@@ -124,6 +159,11 @@ export function ContaExtratoCreditoToJSON(value?: ContaExtratoCredito | null): a
         'arquivo_id': value.arquivo_id,
         'http_method': value.http_method,
         'uri': value.uri,
+        'client_id': value.client_id,
+        'origin': value.origin,
+        'resource_type': value.resource_type,
+        'resource_id': value.resource_id,
+        'request_id': value.request_id,
     };
 }
 

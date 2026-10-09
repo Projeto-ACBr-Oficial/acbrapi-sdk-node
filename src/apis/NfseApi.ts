@@ -207,7 +207,7 @@ export class NfseApi extends runtime.BaseAPI {
         }
 
         const response = await this.request({
-            path: `/nfse/{Id}/cancelamento/xml`.replace(`{${"Id"}}`, encodeURIComponent(String(requestParameters.id))),
+            path: `/nfse/{id}/cancelamento/xml`.replace(`{${"id"}}`, encodeURIComponent(String(requestParameters.id))),
             method: 'GET',
             headers: headerParameters,
             query: queryParameters,
