@@ -359,6 +359,7 @@ src/models/DistribuicaoNfeNota.ts
 src/models/DistribuicaoNfeNotaListagem.ts
 src/models/DistribuicaoNfePedido.ts
 src/models/DistribuicaoNfePedidoManifestacao.ts
+src/models/DocAjusteBC.ts
 src/models/DocDedRed.ts
 src/models/DocNFNFS.ts
 src/models/DocOutNFSe.ts
@@ -389,6 +390,7 @@ src/models/EmpresaListagem.ts
 src/models/EmpresaPedidoCadastroCertificado.ts
 src/models/EnderExt.ts
 src/models/EnderExtSimples.ts
+src/models/EnderImovel.ts
 src/models/EnderNac.ts
 src/models/EnderObraEvento.ts
 src/models/Endereco.ts
@@ -397,6 +399,7 @@ src/models/EnderecoSimples.ts
 src/models/ExigSuspensa.ts
 src/models/HttpRequestDebug.ts
 src/models/InfDPS.ts
+src/models/InfoAjusteBC.ts
 src/models/InfoCompl.ts
 src/models/InfoDedRed.ts
 src/models/InfoFornecDocDedRed.ts
@@ -408,6 +411,7 @@ src/models/InfoRefNFSe.ts
 src/models/InfoTomador.ts
 src/models/InfoTributacao.ts
 src/models/InfoValores.ts
+src/models/ListaDocAjusteBC.ts
 src/models/ListaDocDedRed.ts
 src/models/LocPrest.ts
 src/models/ManifestacaoNfeListagem.ts
@@ -725,6 +729,7 @@ src/models/NfseMensagemRetorno.ts
 src/models/NfsePedidoCancelamento.ts
 src/models/NfsePedidoSincronizacao.ts
 src/models/NfseSincronizacao.ts
+src/models/RTCInfoBensMoveis.ts
 src/models/RTCInfoDest.ts
 src/models/RTCInfoIBSCBS.ts
 src/models/RTCInfoImovel.ts
@@ -743,6 +748,9 @@ src/models/RTCListaDocDFe.ts
 src/models/RTCListaDocFiscalOutro.ts
 src/models/RTCListaDocFornec.ts
 src/models/RTCListaDocOutro.ts
+src/models/RTCLocacaoImovel.ts
+src/models/RTCUnidadesImobiliarias.ts
+src/models/RTCValoresBCImoveis.ts
 src/models/RegTrib.ts
 src/models/Rps.ts
 src/models/RpsDados.ts

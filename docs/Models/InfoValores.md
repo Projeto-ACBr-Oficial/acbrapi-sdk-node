@@ -6,6 +6,7 @@
 |------------ | ------------- | ------------- | -------------|
 | **vServPrest** | [**VServPrest**](VServPrest.md) |  |  |
 | **vDescCondIncond** | [**VDescCondIncond**](VDescCondIncond.md) |  | [opcional]  |
+| **vAjusteBC** | [**InfoAjusteBC**](InfoAjusteBC.md) |  | [opcional]  |
 | **vDedRed** | [**InfoDedRed**](InfoDedRed.md) |  | [opcional]  |
 | **trib** | [**InfoTributacao**](InfoTributacao.md) |  |  |
 

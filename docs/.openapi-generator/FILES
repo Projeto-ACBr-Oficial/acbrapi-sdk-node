@@ -353,6 +353,7 @@ Models/DistribuicaoNfeNota.md
 Models/DistribuicaoNfeNotaListagem.md
 Models/DistribuicaoNfePedido.md
 Models/DistribuicaoNfePedidoManifestacao.md
+Models/DocAjusteBC.md
 Models/DocDedRed.md
 Models/DocNFNFS.md
 Models/DocOutNFSe.md
@@ -383,6 +384,7 @@ Models/EmpresaListagem.md
 Models/EmpresaPedidoCadastroCertificado.md
 Models/EnderExt.md
 Models/EnderExtSimples.md
+Models/EnderImovel.md
 Models/EnderNac.md
 Models/EnderObraEvento.md
 Models/Endereco.md
@@ -391,6 +393,7 @@ Models/EnderecoSimples.md
 Models/ExigSuspensa.md
 Models/HttpRequestDebug.md
 Models/InfDPS.md
+Models/InfoAjusteBC.md
 Models/InfoCompl.md
 Models/InfoDedRed.md
 Models/InfoFornecDocDedRed.md
@@ -402,6 +405,7 @@ Models/InfoRefNFSe.md
 Models/InfoTomador.md
 Models/InfoTributacao.md
 Models/InfoValores.md
+Models/ListaDocAjusteBC.md
 Models/ListaDocDedRed.md
 Models/LocPrest.md
 Models/ManifestacaoNfeListagem.md
@@ -719,6 +723,7 @@ Models/NfseMensagemRetorno.md
 Models/NfsePedidoCancelamento.md
 Models/NfsePedidoSincronizacao.md
 Models/NfseSincronizacao.md
+Models/RTCInfoBensMoveis.md
 Models/RTCInfoDest.md
 Models/RTCInfoIBSCBS.md
 Models/RTCInfoImovel.md
@@ -737,6 +742,9 @@ Models/RTCListaDocDFe.md
 Models/RTCListaDocFiscalOutro.md
 Models/RTCListaDocFornec.md
 Models/RTCListaDocOutro.md
+Models/RTCLocacaoImovel.md
+Models/RTCUnidadesImobiliarias.md
+Models/RTCValoresBCImoveis.md
 Models/RegTrib.md
 Models/Rps.md
 Models/RpsDados.md
